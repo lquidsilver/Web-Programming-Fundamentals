@@ -6,21 +6,21 @@
  * To change this template use File | Settings | File Templates.
  */
 
-function add()
-{
-    var inp1 = $("#inp1").val();
-    var inp2 = $("#inp2").val();
-    if(inp1=="" || inp2=="")
-    {
-        alert("Enter all input fields");
-        return false;
-    }
-    else
-    {
-        var resl = parseFloat(inp1) + parseFloat(inp2);
-        $("#resl").val(resl);
-    }
-}
+var name = prompt("What is your name?");
+var daily = prompt( "How many ounces of water do you plan on drinking per day?");
+var size = prompt("What is the ounce size of the bottles?");
+var price = prompt("What is the price per pack?");
+var pack = 24;
+var week = 7;
+
+var ouncePerWeek = daily * week;
+var ouncePerPack = size * pack;
+var amt = ouncePerWeek / ouncePerPack;
+var amount = Math.ceil(amt);
+var rawTotal = amount * price;
+var total = parseFloat(Math.round(rawTotal * 100) / 100).toFixed(2);
+alert(name + ", the number of 24 packs you would need is " + amount + " and will cost you $" + total)
+
 
 
 
