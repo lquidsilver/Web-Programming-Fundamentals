@@ -5,9 +5,9 @@
  * Time: 10:28 AM
  * To change this template use File | Settings | File Templates.
  */
-document.write("<table width =100% height=100% border=1 valign=bottom class=dead_center><tr valign=middle height=100%><td valign=middle height=400px align=center>**Please Note: A Hydra is a multi-headed creature, there is only one way to truly kill it!**<br> One example would be to \"Cut off it\'s heads\"</td></tr></table>");
+document.write("<table width =100% height=100% border=1 valign=bottom class=dead_center><tr valign=middle height=100%><td valign=middle height=400px align=center>**Please Note: A Hydra is a multi-headed creature, there is only one way to truly kill it!**<br> One example would be to \"Cut off it\'s heads\"</td></tr></table>"); /* Wrote this document write so that the User has a hint as to what they are supposed to type */
 
-var headOne = prompt("How do you kill a hydra?");
+var headOne = prompt("How do you kill a Hydra?"); /*Asks the user how do you kill a hydra*/
 
 if(headOne == "Cut off it\'s heads")
 {
