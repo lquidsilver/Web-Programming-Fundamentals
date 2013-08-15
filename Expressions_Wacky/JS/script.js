@@ -74,7 +74,7 @@ if(headOne == "Cut off it\'s heads")   /* If the user enters "Cut off it's heads
                             alert("Sorry, you would have died!");
                         }
                     }
-                    else if (stat1 == "Cut off it\'s heads and burn the nubs")   /* if user correctly enters Cut off it's heads and burn the nubs then we congratulate them and let them know they killed the Hydra **/
+                    else if (stat1 == "Cut off it\'s heads and burn the nubs")   /* if user correctly enters Cut off it's heads and burn the nubs then we congratulate them and let them know they killed the Hydra */
                     {
                         alert("Congratulations! You killed the Hydra!");
                     }
