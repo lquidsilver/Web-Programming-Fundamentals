@@ -25,7 +25,7 @@ function begin()
             else
             {
                 var dif1 = cashopt1 - 7.98
-                alert ("You gave " cashopt1 ", your change will be " dif1 ". \n Thank you!")
+                alert ("You gave " +cashopt1+ ", your change will be " +dif1+ ". \n Thank you!");
             }
     }
     else if(payment =="Credit")
@@ -41,7 +41,23 @@ function begin()
         }
         else if(cardopt1 == "No")
         {
-            prompt("You chose not to use your card, please start over");
+            alert("You chose not to use your credit card, please start over");
+        }
+        else if(cardopt1 == "no")
+        {
+            alert("You chose not to use your credit card, please start over");
+        }
+        else
+        {
+            alert("You did not choose \"Yes\" or \"No\", please start over");
+        }
+    }
+    else if(payment =="Debit")
+    {
+        var debitopt1 = prompt("The total is $7.98, are you sure you want to use your debit card? \n Please choose, \"Yes\" or \"No\"");
+        if(debitopt1 == "Yes")
+        {
+
         }
     }
 }
