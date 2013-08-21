@@ -13,7 +13,7 @@ function begin()
     if(payment == "Cash")
     {
         var cashopt1 = prompt("The total is $7.98, what is the exact amount you give?\n **Please do not include the $ symbol**");
-            if(cashopt1 > 7.98)
+            if(cashopt1 < 7.98)
             {
                 var dif = 7.98 - cashopt1;
                 alert ("You did not give enough, please give at least $7.98");
