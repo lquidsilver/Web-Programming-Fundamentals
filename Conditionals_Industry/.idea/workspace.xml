@@ -5,6 +5,7 @@
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377132646519" ignored="false" />
+    <file path="/script.js" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377134066845" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="414" selection-start="643" selection-end="643" vertical-scroll-proportion="0.31553397">
+            <state line="10" column="414" selection-start="643" selection-end="643" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="26" column="8" selection-start="588" selection-end="588" vertical-scroll-proportion="0.46728972">
+              <folding>
+                <element signature="n#!!doc;n#begin#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/JS/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/JS/script.js" />
       </list>
     </option>
   </component>
@@ -226,17 +229,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="414" selection-start="643" selection-end="643" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="414" selection-start="643" selection-end="643" vertical-scroll-proportion="0.31553397">
-          <folding />
+        <state line="26" column="8" selection-start="588" selection-end="588" vertical-scroll-proportion="0.46728972">
+          <folding>
+            <element signature="n#!!doc;n#begin#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
