@@ -5,7 +5,7 @@
     <ignored path="Conditionals_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="0c0c661d-a96e-4283-948a-36b93b1b2c2a" time="1377052859986" ignored="false" />
-    <file path="/script.js" changelist="0c0c661d-a96e-4283-948a-36b93b1b2c2a" time="1377089793116" ignored="false" />
+    <file path="/script.js" changelist="0c0c661d-a96e-4283-948a-36b93b1b2c2a" time="1377129822136" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="73" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.95327103">
+            <state line="77" column="97" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.2990654">
               <folding>
                 <element signature="n#!!doc;n#begin#0" expanded="false" />
               </folding>
@@ -260,7 +260,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="73" selection-start="2529" selection-end="2529" vertical-scroll-proportion="0.95327103">
+        <state line="77" column="97" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.2990654">
           <folding>
             <element signature="n#!!doc;n#begin#0" expanded="false" />
           </folding>
