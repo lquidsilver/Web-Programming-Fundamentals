@@ -36,10 +36,56 @@ function begin()
                 result = fish2 + shrimp1;
                 alert("Your order will take approximately "+result+" minutes, thank you!");
             }
+            else if(moreopt2 =="No" || "no")
+            {
+                result = fish2;
+                alert("Your order will take approximately "+result+" minutes, thank you!");
+            }
+            else
+            {
+                alert("You did not type a valid option, please start over.");
+            }
         }
         else if(moreopt1 == "Crab" || "crab")
         {
+            var moreopt2 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\", \"Shrimp\", or \"No\" \n **Please note, there is a maximum of 3 orders at a time!");
+            if(moreopt2 == "Fish" || "fish")
+            {
+                result = fish1 + crab1;
+                alert("Your order will take approximately "+result+" minutes, thank you!");
+            }
+            else if(moreopt2 == "Crab" || "crab")
+            {
+                result = fish1 + crab1;
+                alert("Your order will take approximately "+result+" minutes, thank you!");
+            }
+            else if(moreopt2 == "Shrimp" || "shrimp")
+            {
+                result = fish1 + crab1 +shrimp1;
+                alert("Your order will take approximately "+result+" minutes, thank you!");
+            }
+            else if(moreopt2 == "No" || "no")
+            {
+                result = fish1 + crab1;
+                alert("Your order will take approximately "+result+" minutes, thank you!");
+            }
+            else
+            {
+                alert("You did  not type a valid option, please start over");
+            }
+        }
+        else if(moreopt1 == "Shrimp" || "shrimp")
+        {
 
+        }
+        else if(moreopt1 == "No" || "no")
+        {
+            result = fish1;
+            alert("Your order will take approximately "+result+" minutes, thank you!");
+        }
+        else
+        {
+            alert("You did not type a valid option, please start over");
         }
     }
     else if(sfdopt1 == "Crab" || "crab")
@@ -47,7 +93,7 @@ function begin()
 
         var moreopt1 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\",\"Shrimp\", or \"No\"");
     }
-    else if (sfdopt1 == "Shrimp" ||"shrimp")
+    else if(sfdopt1 == "Shrimp" ||"shrimp")
     {
 
         var moreopt1 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\",\"Shrimp\", or \"No\"");
