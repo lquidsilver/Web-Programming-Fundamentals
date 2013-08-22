@@ -34,6 +34,7 @@ function begin()
         if(cardopt1 == "Yes" || "yes")
         {
             prompt("Thank you, please enter your name as an electronic signature");
+            alert("Thank you, signature received!");
         }
 
         else if(cardopt1 == "No" || "no")
@@ -52,7 +53,7 @@ function begin()
         if(debitopt1 == "Yes" || "yes")
         {
             var debitopt2 = prompt("Thank you, please enter your 4 digit pin");
-            (debitopt2 < 1000 && debitopt2 >10000) ?  alert("You did not enter a valid pin, please start over") : var debitopt3 = prompt("Thank you, would you like cash back? \n Please choose \"Yes\" or \"No\"");
+            debitopt3 = (debitopt2 < 1000 && debitopt2 > 10000) ? alert("You did not enter a valid pin, please start over") : prompt("Thank you, would you like cash back? \n Please choose \"Yes\" or \"No\"");
             if(debitopt3 == "Yes" || "yes")
             {
                 var debitopt4 = prompt("How much cash back would you like? \n **Do not add a $ sign**");
@@ -62,7 +63,7 @@ function begin()
                 }
                 else
                 {
-                    alert("You requested $ " +debitopt4+ ", thank you!");
+                    alert("You requested $" +debitopt4+ ", thank you!");
                 }
             }
             else if(debitopt3 == "No" || "no")
