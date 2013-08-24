@@ -8,7 +8,7 @@
 
 function begin()
 {
-    var sfdopt1 = prompt("Which seafood items would you like? Please type \"Fish\", \"Crab\", or \"Shrimp\" ");
+    var sfdopt1 = prompt("Which seafood items would you like? Please type \"Fish\", \"Crab\", or \"Shrimp\" ");   /*Starts by asking the user what kind of seafood they would like and gives them 3 choices*/
     var fish1 = 7;
     var crab1 = 8;
     var shrimp1 = 5;
@@ -18,12 +18,12 @@ function begin()
     if(sfdopt1 == "Fish")
     {
 
-        moreopt1 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\",\"Shrimp\", or \"No\"");
+        moreopt1 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\",\"Shrimp\", or \"No\"");  /*Asks if the would like anything else with 3 choices*/
         if(moreopt1 == "Fish")
         {
 
-            moreopt2 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\", \"Shrimp\", or \"No\" \n **Please note, there is a maximum of 3 orders at a time!1");
-            if(moreopt2 == "Fish")
+            moreopt2 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\", \"Shrimp\", or \"No\" \n **Please note, there is a maximum of 3 orders at a time!");  /*Asks again if the user would like anything else, gives 3 choice and lets the user know there is a maximum of 3 orders*/
+            if(moreopt2 == "Fish")           /* prints the results of the orders with fish being the first order*/
             {
                 result = fish1;
                 alert("Your order will take approximately "+result+" minutes, thank you!");
@@ -48,7 +48,7 @@ function begin()
                 alert("You did not type a valid option, please start over.");
             }
         }
-        else if(moreopt1 == "Crab")
+        else if(moreopt1 == "Crab") /*
         {
             moreopt2 = prompt("Would you like anything else? Please type \"Fish\", \"Crab\", \"Shrimp\", or \"No\" \n **Please note, there is a maximum of 3 orders at a time!");
             if(moreopt2 == "Fish")
