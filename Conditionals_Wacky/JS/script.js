@@ -13,7 +13,6 @@ function begin()
     {
         alert("You have reached a dead end, you return to the beginning.");
         begin();
-        return;
     }
     else if(start == "Left")
     {
@@ -24,35 +23,106 @@ function begin()
             {
                 alert("You have reached a dead end, you return to the last intersection.");
                 intersect1();
-                return;
+
             }
             else if(start2 == "Left")
             {
                 alert("You have reached a dead end, you return to the last intersection.");
                 intersect1();
-                return;
+
             }
             else if(start2 == "Right")
             {
                 function intersect2()
                 {
                     var start3 = prompt("You came to an intersection, \n please choose \"Forward\", \"Left\", or \"Right\"");
-
+                    if (start3 =="Forward")
+                    {
+                        function intersect3()
+                        {
+                            var start4 = prompt("You come to an intersection, \n please choose \"Forward\", \"Left\", or \"Right\"");
+                            if(start4 == "Forward")
+                            {
+                                   function intersect4()
+                                   {
+                                    var start5 = prompt("You come to an intersection, \n please choose \"Forward\", \"Left\", or \"Right\"");
+                                       if(start5 == "Forward")
+                                       {
+                                           alert("You have reached a dead end, you return to the last intersection.");
+                                           intersect4();
+                                       }
+                                       else if(start5 == "Left")
+                                       {
+                                           alert("You have reached a dead end, you return to the last intersection.");
+                                           intersect4();
+                                       }
+                                       else if(start5 == "Right")
+                                       {
+                                           function intersect5()
+                                           {
+                                                var start6 = prompt("You come to an intersection, \n please choose \"Forward\", \"Left\", or \"Right\"");
+                                               if(start6 == "Forward")
+                                               {
+                                                   function deadend1()
+                                                   {
+                                                       var wrongway = prompt("You come to an intersection, \n please choose \"Forward\", \"Left\", or \"Right\"");
+                                                   }
+                                               }
+                                           }
+                                           intersect5();
+                                       }
+                                       else
+                                       {
+                                           alert("You did not choose a correct option, please try again.");
+                                           intersect4();
+                                       }
+                                   }
+                                   intersect4();
+                            }
+                            else if(start4 == "Left")
+                            {
+                                alert("You have reached a dead end, you return to the last intersection.");
+                                intersect3();
+                            }
+                            else if(start4 == "Right")
+                            {
+                                alert("You have reached a dead end, you return to the last intersection.");
+                                intersect3();
+                            }
+                            else
+                            {
+                                alert("You did not choose a correct option, please try again.");
+                                intersect3();
+                            }
+                        }
+                        intersect3();
+                    }
+                    else if (start3 == "Left")
+                    {
+                        alert("You have reached a dead end, you return to the last intersection.");
+                        intersect2();
+                    }
+                    else if (start3 == "Right")
+                    {
+                        alert("You have reached a dead end, you return to the last intersection.");
+                        intersect2();
+                    }
                 }
+                intersect2();
             }
             else
             {
                 alert("You did not choose a correct option, please try again.");
                 intersect1();
-                return;
+
             }
         }
+        intersect1();
     }
-    else if(start =="Right")
+    else if(start == "Right")
     {
         alert("You have reached a dead end, you return to the beginning.");
         begin();
-        return;
     }
     else
     {
