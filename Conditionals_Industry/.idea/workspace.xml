@@ -4,10 +4,10 @@
     <list default="true" id="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" name="Default" comment="" />
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377176122402" ignored="false" />
-    <file path="/script.js" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377303779440" ignored="false" />
-    <file path="$PROJECT_DIR$/../Conditionals_Wacky/index.html" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377176122402" ignored="false" />
-    <file path="$PROJECT_DIR$/../Conditionals_Wacky/JS/script.js" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377303830635" ignored="false" />
+    <file path="/index.html" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377305319712" ignored="false" />
+    <file path="/script.js" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377305176952" ignored="false" />
+    <file path="$PROJECT_DIR$/../Conditionals_Wacky/index.html" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377305320714" ignored="false" />
+    <file path="$PROJECT_DIR$/../Conditionals_Wacky/JS/script.js" changelist="bc9728a4-cb71-4f42-8c2a-5b8ca87fbcb5" time="1377305896164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
