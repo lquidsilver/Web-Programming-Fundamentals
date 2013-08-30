@@ -4,6 +4,7 @@
     <list default="true" id="5ffa5e2c-87a3-42a0-8dad-b15707082080" name="Default" comment="" />
     <ignored path="Functions_ Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/script.js" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1377834479672" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,10 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="172" selection-start="519" selection-end="519" vertical-scroll-proportion="0.14263074">
+              <folding>
+                <element signature="n#!!doc;n#begin#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +60,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-22" />
-    <option name="y" value="490" />
+    <option name="x" value="28" />
+    <option name="y" value="37" />
     <option name="width" value="1420" />
     <option name="height" value="792" />
   </component>
@@ -143,7 +146,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-22" y="490" width="1420" height="792" extended-state="0" />
+    <frame x="28" y="37" width="1420" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -234,8 +237,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="172" selection-start="519" selection-end="519" vertical-scroll-proportion="0.14263074">
+          <folding>
+            <element signature="n#!!doc;n#begin#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
