@@ -4,7 +4,8 @@
     <list default="true" id="3f58d660-9088-463d-8bf9-c15a81ab013a" name="Default" comment="" />
     <ignored path="Functions_ Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="3f58d660-9088-463d-8bf9-c15a81ab013a" time="1377831930802" ignored="false" />
+    <file path="/script.js" changelist="3f58d660-9088-463d-8bf9-c15a81ab013a" time="1377833206098" ignored="false" />
+    <file path="/index.html" changelist="3f58d660-9088-463d-8bf9-c15a81ab013a" time="1377832687260" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="20" column="33" selection-start="721" selection-end="721" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
@@ -36,7 +37,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="330" selection-end="330" vertical-scroll-proportion="0.16304348">
+            <state line="15" column="113" selection-start="533" selection-end="533" vertical-scroll-proportion="0.20962733">
               <folding>
                 <element signature="n#!!doc;n#begin#0" expanded="false" />
               </folding>
@@ -60,8 +61,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="22" />
+    <option name="x" value="39" />
+    <option name="y" value="106" />
     <option name="width" value="1420" />
     <option name="height" value="792" />
   </component>
@@ -134,6 +135,21 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -146,7 +162,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1420" height="792" extended-state="0" />
+    <frame x="39" y="106" width="1420" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -230,14 +246,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="20" column="33" selection-start="721" selection-end="721" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="330" selection-end="330" vertical-scroll-proportion="0.16304348">
+        <state line="15" column="113" selection-start="533" selection-end="533" vertical-scroll-proportion="0.20962733">
           <folding>
             <element signature="n#!!doc;n#begin#0" expanded="false" />
           </folding>

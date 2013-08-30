@@ -11,7 +11,6 @@ function begin()
     var butter = document.getElementById("butter");
     var wrap = document.getElementById("wrap");
     var season = document.getElementById("season");
-
-
-
+    (function (msg){alert(msg)})('Thank you for your order!');
+    document.getElementById("result").innerHTML ="You asked for " +butter+ " on your seafood with " +wrap+ " and " +season+ " seasoning.";
 }

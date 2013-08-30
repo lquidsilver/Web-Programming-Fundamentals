@@ -4,10 +4,10 @@
     <list default="true" id="473847d7-7f51-4299-8f59-92c72f4997ab" name="Default" comment="" />
     <ignored path="Functions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377831930802" ignored="false" />
-    <file path="/index.html" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377830813915" ignored="false" />
-    <file path="$PROJECT_DIR$/../Functions_ Industry/index.html" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377831085041" ignored="false" />
-    <file path="$PROJECT_DIR$/../Functions_ Industry/JS/script.js" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377831937043" ignored="false" />
+    <file path="/script.js" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377833206098" ignored="false" />
+    <file path="/index.html" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377832687260" ignored="false" />
+    <file path="$PROJECT_DIR$/../Functions_ Industry/index.html" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377833263399" ignored="false" />
+    <file path="$PROJECT_DIR$/../Functions_ Industry/JS/script.js" changelist="473847d7-7f51-4299-8f59-92c72f4997ab" time="1377833306024" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.75242716">
+            <state line="30" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-18.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="116" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+            <state line="17" column="47" selection-start="469" selection-end="512" vertical-scroll-proportion="0.26232114">
               <folding>
                 <element signature="n#!!doc;n#begin#0" expanded="false" />
               </folding>
@@ -246,19 +246,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="116" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc;n#begin#0" expanded="false" />
-          </folding>
+        <state line="30" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-18.75">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.75242716">
-          <folding />
+        <state line="17" column="47" selection-start="469" selection-end="512" vertical-scroll-proportion="0.26232114">
+          <folding>
+            <element signature="n#!!doc;n#begin#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
