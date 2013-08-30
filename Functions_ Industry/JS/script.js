@@ -8,9 +8,9 @@
 
 function begin()
 {
-    var butter = document.getElementById("butter");
-    var wrap = document.getElementById("wrap");
-    var season = document.getElementById("season");
+    var butter = document.getElementById("butter").value;
+    var wrap = document.getElementById("wrap").value;
+    var season = document.getElementById("season").value;
     (function (msg){alert(msg)})('Thank you for your order!');
     document.getElementById("result").innerHTML ="You asked for " +butter+ " on your seafood with " +wrap+ " and " +season+ " seasoning.";
 }
