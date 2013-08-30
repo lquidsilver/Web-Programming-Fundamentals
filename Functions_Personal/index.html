@@ -2,22 +2,34 @@
 <html>
 <head>
     <title></title>
+    <script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
 <div>
-    <table align="center">
-        <tr>
-            <td>
-                <textarea id="weight" cols="1" rows="1">
-                    Enter your weight here...
-                </textarea><br>
-                <textarea id="activity" cols="1" rows="1">
-                    Enter the amount of time you exercise in minutes here...
-                </textarea><br>
-                <input type="submit" value="Submit" />
+    <table align="center" width="80%" border="1">
+        <tr align ="center" width="100%">
+            <td align="center" width="100%">
+                So, we now know how many packs of water we need, how much it will cost us, and how we are going to pay for the water. The last question that remains is, how much water do we NEED to consume daily. This form will help you with just that!
+            </td>
+        </tr>
+        <tr width="100%">
+            <td align="center" width="50%">
+               Please enter your weight in pounds: <input type="text" id="weight" />
+                <br>
+                Please enter the number of minutes you exercise daily: <input type="text" id="activity" />
+            </td>
+        </tr>
+         <tr>
+             <td align="center">
+                <input type="submit" value="Submit" onclick="begin()" />
             </td>
         </tr>
     </table>
+
+</div>
+<br>
+<div id="result" align="center">
+
 </div>
 
 </body>
