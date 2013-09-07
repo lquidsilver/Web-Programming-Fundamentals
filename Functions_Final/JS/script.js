@@ -5,45 +5,67 @@
  * Time: 8:24 AM
  * To change this template use File | Settings | File Templates.
  */
-var rolls1 = firstroll();
 
-function firstroll()
-{
+var first = prompt("Please enter your first name");
+    if (first == "") {
+        alert("No first name entered, please refresh and try again.");
+        }
+    else if (parseFloat(first) && isFinite(first)) { /*Checks to make sure you aren't only using a number for your first name*/
+        alert("Your first name cannot be a number, please refresh and try again.");
+        }
+    else {
+        var middle = prompt("Please enter your middle name");
+            if (parseFloat(middle) && isFinite(middle)) { /*Checks to make sure you aren't only using a number for your middle name*/
+                alert("Your middle name cannot be a number, please refresh and try again.");
+                }
+            else {
+                var last = prompt("please enter your last name");
+                    if (last == null) {
+                        alert("No last name entered, please refresh and try again.");
+                        }
+                    else if (parseFloat(last) && isFinite(last)) { /*Checks to make sure you aren't only using a number for your last name*/             alert("Your last name cannot be a number, please refresh and try again.");
+                        }
+                 }
+        }
+var fullname = name(first, middle, last);
 
-    var roll1 = Math.floor((Math.random()*6)+1);
-    var roll2 = roll1;
-    document.getElementById("slot1").value = roll2;   //*Get an error here, value returns as null?*//
-    if(roll1 == "1")
-    {
-        roll1="one";
+function name(first, middle, last) {                            /* function with three parameters, that asks for first middle and last name for later use in the scorecard */
+
+    var full = first+" "+middle+" "+last;
+    return full;  /*returning full name*/
+}
+
+function rollDie(id) {                                      /*function is called based on the parameter's id in html*/
+
+    function doRoll() {
+        return Math.floor((Math.random()*6)+1);    /*returning a random number*/
     }
-    else if(roll1 == "2")
+
+    console.log(id);
+
+    var elem = document.getElementById(id);
+    if (elem == null)
     {
-        roll1="two";
-    }
-    else if(roll1 == "3")
-    {
-        roll1="three";
-    }
-    else if(roll1 == "4")
-    {
-        roll1="four";
-    }
-    else if(roll1 == "5")
-    {
-        roll1="five";
+        alert("Error, please try again");
     }
     else
     {
-        roll1="six";
+    elem.value = doRoll();
+
+    document.getElementById("pic"+id).innerHTML = "<img src='images/"+elem.value+".gif' />";
     }
+    var slot1 = Number(document.getElementById("slot1").value);
+    var slot2 = Number(document.getElementById("slot2").value);
+    var slot3 = Number(document.getElementById("slot3").value);
+    var slot4 = Number(document.getElementById("slot4").value);
+    var slot5 = Number(document.getElementById("slot5").value);
+    var slot6 = Number(document.getElementById("slot6").value);
 
-   return roll1;
-
+    var total = slot1+slot2+slot3+slot4+slot5+slot6 ;
+    console.log("value is" +total);
+    document.getElementById("scorecard").innerHTML = fullname +"'s Scorecard";
+    document.getElementById("score").innerHTML = "Score total = " +total;
 }
-/*onclick, the values in the function change, but nothing outside the function changes, need a work around*/
 
-
-console.log(rolls1);
 
 

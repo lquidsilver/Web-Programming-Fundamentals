@@ -2,33 +2,96 @@
 <html>
 <head>
     <title></title>
-    <script type="text/javascript" src="JS/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-<table border="1">
+<br><br><br>
+<div class="box" width="500">
+<h1 align="center" class="header">Rolling Dice Generator</h1>
+<table border="0" align="center">
     <tr>
         <td>
-            <input type="text" id="slot1" value="rawr" /><br>
+            <input type="text" id="slot1" /><br>
         </td>
-        <td id="pic1">
-            <!--trying to assign a picture from the function-->
+        <td id="picslot1">
+
+        </td>
+        <td>
+            <input type="text" id="slot2" /><br>
+        </td>
+        <td id="picslot2">
+
         </td>
     </tr>
     <tr>
         <td>
-            <input type="submit" value="Roll Die" onclick="firstroll()"><br><br>
-            <input type="text" id="slot2" /><br>
-            <input type="submit" value="Roll Die" onclick="secondroll()"><br><br>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot1')"><br><br>
+        </td>
+        <td></td>
+        <td>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot2')"><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <input type="text" id="slot3"/><br>
-            <input type="submit" value="Roll Die"><br><br>
+        </td>
+        <td id="picslot3">
+
+        </td>
+        <td>
             <input type="text" id="slot4"/><br>
-            <input type="submit" value="Roll Die"><br><br>
+        </td>
+        <td id="picslot4">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot3')"><br><br>
+        </td>
+        <td></td>
+        <td>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot4')"><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <input type="text" id="slot5"/><br>
-            <input type="submit" value="Roll Die"><br><br>
+        </td>
+        <td id="picslot5">
+
+        </td>
+        <td>
             <input type="text" id="slot6"/><br>
-            <input type="submit" value="Roll Die"><br><br>
+        </td>
+        <td id="picslot6">
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot5')"><br><br>
+        </td>
+        <td></td>
+        <td>
+            <input type="submit" value="Roll Die" onclick="rollDie('slot6')"><br><br>
+        </td>
+    </tr>
+</table><br><br>
+<table border="0" align="center" width="300" cellpadding="0" cellspacing="0">
+    <tr>
+        <td id="scorecard" class="card" align="center">
+
+        </td>
+    </tr>
+    <tr>
+        <td id="score" class="content" align="center">
+
         </td>
     </tr>
 </table>
+<script type="text/javascript" src="JS/script.js"></script>
+</div>
 </body>
 </html>

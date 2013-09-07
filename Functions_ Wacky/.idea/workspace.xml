@@ -4,10 +4,12 @@
     <list default="true" id="5ffa5e2c-87a3-42a0-8dad-b15707082080" name="Default" comment="" />
     <ignored path="Functions_ Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/script.js" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378434811428" ignored="false" />
-    <file path="/index.html" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378435077534" ignored="false" />
-    <file path="$PROJECT_DIR$/../Functions_Final/index.html" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378435081516" ignored="false" />
-    <file path="$PROJECT_DIR$/../Functions_Final/JS/script.js" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378435152510" ignored="false" />
+    <file path="/script.js" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378512477742" ignored="false" />
+    <file path="/index.html" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378516482308" ignored="false" />
+    <file path="$PROJECT_DIR$/../Functions_Final/index.html" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378516483212" ignored="false" />
+    <file path="$PROJECT_DIR$/../Functions_Final/JS/script.js" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378512882009" ignored="false" />
+    <file path="$PROJECT_DIR$/../Functions_Final/CSS/style.css" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378516397527" ignored="false" />
+    <file path="/style.css" changelist="5ffa5e2c-87a3-42a0-8dad-b15707082080" time="1378516394118" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
